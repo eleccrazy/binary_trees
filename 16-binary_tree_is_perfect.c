@@ -58,9 +58,7 @@ int assister(const binary_tree_t *t, int d, int level)
 
 int helper(const binary_tree_t *t)
 {
-	int d = depth(t);
-
-	return (assister(t, d, 0));
+	return (assister(t, depth(t), 0));
 }
 
 /**
