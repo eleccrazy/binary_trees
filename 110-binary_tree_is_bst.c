@@ -5,6 +5,8 @@
  * helper - Performs the actual check.
  *
  * @t: A pointer to the root node of the tree to check.
+ * @low: The value of the smallest node visited thus far.
+ * @high: The value of the largest node visite thus far.
  *
  * Return: 1 if it is BST, otherwise 0.
  *
